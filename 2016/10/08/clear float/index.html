@@ -12,26 +12,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript" />
+    <meta name="keywords" content="Cassie,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript" />
   
 
-  <meta name="description" content="先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：
+  <meta name="description" content="先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）
+浮动和绝对定位“区别”　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：
 
-　　绝对定位使元素脱离文档流，不占据空间 ，因此普通文档流中元素的布局就当绝对定位的元素不存在一样。因为绝对定位的框与文档流无关">
+　　绝对定位使元素脱离文档流，不占据空间 ，因此普通文档流中元素的布局就当绝对定位的元素不存在一样。因为">
 <meta property="og:type" content="article">
 <meta property="og:title" content="那些年，我们清除过的浮动">
 <meta property="og:url" content="http://yoursite.com/2016/10/08/clear float/index.html">
 <meta property="og:site_name" content="Cassie">
-<meta property="og:description" content="先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：
+<meta property="og:description" content="先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）
+浮动和绝对定位“区别”　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：
 
-　　绝对定位使元素脱离文档流，不占据空间 ，因此普通文档流中元素的布局就当绝对定位的元素不存在一样。因为绝对定位的框与文档流无关">
+　　绝对定位使元素脱离文档流，不占据空间 ，因此普通文档流中元素的布局就当绝对定位的元素不存在一样。因为">
 <meta property="og:image" content="http://yoursite.com/images/float01.png">
-<meta property="og:updated_time" content="2017-04-19T05:46:13.183Z">
+<meta property="og:image" content="http://yoursite.com/images/float02.png">
+<meta property="og:image" content="http://yoursite.com/images/position01.png">
+<meta property="og:image" content="http://yoursite.com/images/float03.png">
+<meta property="og:image" content="http://yoursite.com/images/position02.png">
+<meta property="og:updated_time" content="2017-04-19T07:58:07.252Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="那些年，我们清除过的浮动">
-<meta name="twitter:description" content="先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：
+<meta name="twitter:description" content="先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）
+浮动和绝对定位“区别”　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：
 
-　　绝对定位使元素脱离文档流，不占据空间 ，因此普通文档流中元素的布局就当绝对定位的元素不存在一样。因为绝对定位的框与文档流无关">
+　　绝对定位使元素脱离文档流，不占据空间 ，因此普通文档流中元素的布局就当绝对定位的元素不存在一样。因为">
 <meta name="twitter:image" content="http://yoursite.com/images/float01.png">
 
   
@@ -164,6 +171,11 @@
 </div>
 
 
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#浮动和绝对定位“区别”"><span class="toc-text">浮动和绝对定位“区别”</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#浮动和据对定位实例"><span class="toc-text">浮动和据对定位实例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#清楚浮动的方法"><span class="toc-text">清楚浮动的方法</span></a></li></ol>
+  </div>
+
 
 
 <div class="content content-post CENTER">
@@ -199,20 +211,51 @@
 
   <div class="article-content">
     
-      <p>　　先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）<br>　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：</p>
+      <p>　　先前做简单网页（那时候还没用到bootstrap这种有栅格系统的高端大气上档次的框架），为了实现分栏布局，要么我一个主页都用了绝对定位，要么就都用了浮动，妈妈咪呀，我哪知道什么时候该用哪个啊~~（晕倒在地……）</p>
+<h2 id="浮动和绝对定位“区别”"><a href="#浮动和绝对定位“区别”" class="headerlink" title="浮动和绝对定位“区别”"></a>浮动和绝对定位“区别”</h2><p>　　在这里我先说一下浮动和绝对定位的区别（引自度娘）：</p>
 <blockquote>
 <p>　　绝对定位使元素脱离文档流，不占据空间 ，因此普通文档流中元素的布局就当绝对定位的元素不存在一样。因为绝对定位的框与文档流无关，所以它们可以覆盖页面上的其他元素。而浮动元素的定位还是基于正常的文档流，从文档流中抽出并尽可能远的移动至左侧或者右侧，而仍然在文档流中的其他元素将忽略该元素并填补他原先的空间。它只是改变了文档流的显示，而没有脱离文档流。</p>
 </blockquote>
-<p>　　看完之后觉得，嗯，有道理。然后我查了浮动和清除浮动，顿时懵圈了，大部分人都说之所以要清除浮动，是因为浮动的元素脱离了普通文档流，导致父级元素高度塌陷。博主心乱如麻，到底是脱离还是不脱离嘛？ &gt;~&lt; 不要这么随意任性好吗？（翻白眼……）<br>　　来，上实例咯！</p>
+<p>　　看完之后觉得，嗯，有道理。然后我查了浮动和清除浮动，顿时懵圈了，大部分人都说之所以要清除浮动，是因为浮动的元素脱离了普通文档流，导致父级元素高度塌陷。博主心乱如麻，到底是脱离还是不脱离嘛？ &gt;~&lt; 不要这么随意任性好吗？（翻白眼……）</p>
+<h2 id="浮动和据对定位实例"><a href="#浮动和据对定位实例" class="headerlink" title="浮动和据对定位实例"></a>浮动和据对定位实例</h2><p>来，上实例咯！</p>
 <ul>
-<li><p>CSS部分</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">	.div&#123;</div><div class="line">		width: 300px;</div><div class="line">		border: 1px dashed #000000;</div><div class="line">		padding: 10px;</div><div class="line">	&#125;</div><div class="line">	.clear&#123;</div><div class="line">		clear: both;</div><div class="line">	&#125;	</div><div class="line">	.div1,.div3&#123;</div><div class="line">		width: 100px;height: 100px;</div><div class="line">		border: 1px solid #000000;</div><div class="line">		background: #ff0;</div><div class="line">	&#125;</div><div class="line">	.div2&#123;</div><div class="line">		width:120px;height: 120px;</div><div class="line">		background: #000000;</div><div class="line">		color: #ffffff;</div><div class="line">	&#125;</div><div class="line">	.fl&#123;</div><div class="line">		float: left;</div><div class="line">	&#125;</div><div class="line">	.fr&#123;</div><div class="line">		float: right;</div><div class="line">	&#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
+<li><p>主要CSS部分</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">	.clear&#123;</div><div class="line">		clear: both;</div><div class="line">	&#125;	</div><div class="line">	.fl&#123;</div><div class="line">		float: left;</div><div class="line">	&#125;</div><div class="line">	.fr&#123;</div><div class="line">		float: right;</div><div class="line">	&#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
 </li>
-<li><p>HTML部分<br>例1及效果图:    </p>
+<li><p>HTML部分<br>无浮动效果图:div依次竖向排列    </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;div&quot;&gt;</div><div class="line">	&lt;div class=&quot;div1&quot;&gt;1&lt;/div&gt;</div><div class="line">	&lt;div class=&quot;div2&quot;&gt;2&lt;/div&gt;</div><div class="line">	&lt;div class=&quot;div3&quot;&gt;3&lt;/div&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<p><img src="images/float01.png" alt=""></p>
+<div style="text-align:center;"><img src="images/float01.png" width="30%" title="无浮动图片"></div>
+
+<p>div1浮动效果图:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;div&quot;&gt;</div><div class="line">	&lt;div class=&quot;div1 fl&quot;&gt;1&lt;/div&gt;</div><div class="line">	&lt;div class=&quot;div2&quot;&gt;2&lt;/div&gt;</div><div class="line">	&lt;div class=&quot;div3&quot;&gt;3&lt;/div&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure></p>
+<p><div style="text-align:center;"><img src="images/float02.png" width="30%" title="div1浮动"></div></p>
+<p>　　我们看到，div1浮动后，非浮动元素当div1不存在从而依次上移，占据了div1的位置。div1覆盖div2。</p>
+
+<p>div1绝对定位效果图：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;div&quot; style=&quot;position: relative;&quot;&gt;</div><div class="line">	&lt;div class=&quot;div1&quot; style=&quot;position: absolute;top: 10;left: 10;&quot;&gt;1&lt;/div&gt;</div><div class="line">	&lt;div class=&quot;div2&quot;&gt;2&lt;/div&gt;</div><div class="line">	&lt;div class=&quot;div3&quot;&gt;3&lt;/div&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure></p>
+<p><div style="text-align:center;"><img src="images/position01.png" width="30%" title="div1绝对定位"></div></p>
+<p>　　视觉上和div1浮动效果是没有区别的，但是如果将div2换成文本的话（前方高能~~~）</p>
+
+<p><div style="float:left;"><img src="images/float03.png" title="div1浮动,div2是文本内容"></div></p>
+<p><div style="float:left;"><img src="images/position02.png" title="div1绝对定位,div2是文本内容"></div></p>
+<p><div style="clear:both;"></div></p>
+<p></p><p>　　第一张是div1浮动的效果，第二张是div1绝对定位的效果。div2换成文本内容之后，明确可以看到浮动和绝对定位的区别了。<br>　　其实，浮动元素不占据的是相邻非浮动元素的块空间，但是却占据行框空间，所以文本内容可以环绕div1显示；而绝对定位就是彻底脱离了文档流，块空间和行框空间都不占据，所以任何非浮动元素都会被它覆盖。这样看来，什么时候用绝对定位，什么时候用浮动，就很明确了。<br></p><p></p>
+<h2 id="清楚浮动的方法"><a href="#清楚浮动的方法" class="headerlink" title="清楚浮动的方法"></a>清楚浮动的方法</h2><ul>
+<li><p>给父级设置高度<br>　　元素浮动之后，脱离普通文档流，导致父级高度塌陷，所以清除浮动可以给父级设置具体高度来实现<br>　　缺点：高度必须已知</p>
+</li>
+<li><p>添加子元素<br>　　在浮动的子元素后加<code>&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</code><br>　　缺点：增加了一个没用的元素</p>
+</li>
+<li><p>父级设置浮动<br>　　浮动元素的父级也设置浮动<code>style=float:left;</code><br>　　缺点：局限性，此时父级再设置<code>margin：0 auto；</code>无法实现居中显示</p>
+</li>
+<li><p>父级设置overflow<br>　　浮动元素的父级设置<code>overflow:auto;</code>或者<code>overflow:hidden;</code><br>　　缺点：超出部分会出现滚动条或者被隐藏</p>
+</li>
+<li><p>父级设置display<br>　　浮动元素的父级设置<code>display:inline-block;</code><br>　　缺点：同给父级设置浮动，无法居中</p>
+</li>
+<li><p>最推荐的用法<br>　　给浮动元素父级加<code>clear</code>类名，类名设置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">.clearfix&#123;zoom:1;&#125;</div><div class="line">.clearfix:after&#123;</div><div class="line">　　content:&apos;&apos;;</div><div class="line">　　display:block;</div><div class="line">　　clear:both;</div><div class="line">　　height:0;</div><div class="line">　　visibility:hidden;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>　　可能这篇文章不能解决所有大家遇到的浮动方面的问题，以后遇到什么问题的解决方法我也会在这里继续更新的，每天一起进步一点点！<br>　　谢谢看到这篇文章并给予我支持的人！</p>
 
     
   </div>
